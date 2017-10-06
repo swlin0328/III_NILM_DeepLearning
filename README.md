@@ -7,4 +7,4 @@ Now, we are at THE VERY BEGINNING. One of our big challanges is to estimate the 
 We are finding a best way to measure accuracy. 
 
 # Python note
-We use pandas==0.16.2. Though pandas==0.19.2 is better in resampling, either nilm or neuralnilm is based on pandas==0.16.2. There is a bug when using pandas==0.19.2
+We use pandas==0.16.2 instead of 0.19.2 . Though pandas==0.19.2 is better in resampling, either nilm or neuralnilm is based on pandas==0.16.2. There is a bug when using pandas==0.19.2
