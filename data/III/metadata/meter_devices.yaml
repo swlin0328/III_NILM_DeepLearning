@@ -1,0 +1,26 @@
+eMonitor:
+  model: eMonitor
+  manufacturer: III
+  manufacturer_url: https://web.iii.org.tw/default.aspx
+  description: >
+    Taiwan's regular format
+  sample_period: 60   # the interval between samples. In seconds.
+  max_sample_period: 300   # Max allowable interval between samples. Seconds.
+  measurements:
+  - physical_quantity: power   # power, voltage, energy, current?
+    type: active   # active (real power), reactive or apparent?
+    upper_limit: 500
+    lower_limit: 0
+  wireless: false
+  
+III_whole_house:
+  description: >
+    Eight household in III
+  sample_period: 60
+  max_sample_period: 300
+  measurements:
+  - physical_quantity: power
+    type: apparent
+    upper_limit: 5000000
+    lower_limit: 0
+  wireless: false
