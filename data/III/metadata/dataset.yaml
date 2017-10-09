@@ -4,12 +4,12 @@ creators:
 - Fang_Yi, Chang
 - David
 publication_date: 2017
-institution: Taiwan Power Company
-contact: changfangyi12965@gmail.com   
-description: Several days of power data for 8 different homes.
+institution: III
+contact: fangyichang@iii.org.tw   
+description: two months of power data for 8 different homes.
 subject: Disaggregated power demand from domestic buildings.
 number_of_buildings: 8
-timezone: Asia/Taipei   # Need to Modify to Taiwan Zone
+timezone: Asia/Taipei   
 geo_location:
   locality: Taipei   # village, town, city or state
   country: Taiwan   # standard two-letter country code defined by ISO 3166-1 alpha-2
