@@ -10,6 +10,7 @@ from time import strftime
 
 import pandas as pd
 import matplotlib.pyplot as plt
+from scipy.signal import lombscargle
 import numpy as np
 from neuralnilm.data.loadactivations import load_nilmtk_activations
 from neuralnilm.data.syntheticaggregatesource import SyntheticAggregateSource
@@ -22,6 +23,11 @@ from neuralnilm.utils import select_windows, filter_activations
 from lib import dirs
 from dataprocess import realaggregatesource 
 from dataprocess import stridesource
+from dataprocess import timeframe
+
+import warnings
+warnings.filterwarnings('ignore', message="numpy.dtype size changed, may indicate binary incompatibility.")
+
 # Config
 WINDOWS = None
 BUILDINGS = None
@@ -240,7 +246,7 @@ def train(pipeline, model):
     # create output directory
     print('Creating output directory ... ', end='')
     output_dir = os.path.join( dirs.OUTPUT_DIR,
-                              DATASET + '_' + TARGET_APPLIANCE + '_' + strftime('%Y-%m-%d_%H-%M-%S'))
+                              DATASET + '_' + TARGET_APPLIANCE + '_' + strftime('%Y-%m-%d_%H-%M'))
     os.makedirs(output_dir)
     print(output_dir)
 
@@ -288,7 +294,7 @@ def train(pipeline, model):
                 print('============================== Start of training ==============================')
                 print('===============================================================================')
             else:
-                print('Step {}:'.format(step))
+                print('Step : {} , Time : {}\n'.format(step,strftime('%Y-%m-%d_%H_%m-%s')), end='')
                 print('  Training metrics: ', end='')
                 for i, metrics_name in enumerate(model.metrics_names):
                     print('{}={:.4f}, '.format(metrics_name, train_metrics[i]), end='')

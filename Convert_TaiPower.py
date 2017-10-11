@@ -50,7 +50,7 @@ def convert_redd(redd_path, output_filename, format='HDF'):
     store = get_datastore(output_filename, format, mode='w')
 
     # Convert raw data to DataStore
-    _convert(redd_path, store, _redd_measurement_mapping_func, 'UTC')
+    _convert(redd_path, store, _redd_measurement_mapping_func, 'Asia/Taipei')
 
     s=redd_path+'metadata'
 
@@ -83,7 +83,6 @@ def _convert(input_path, store, measurement_mapping_func, tz, sort_index=True):
 
     # Iterate though all houses and channels
     houses = _find_all_houses(input_path)
-    print(houses)
     for house_id in houses:
         print("Loading house", house_id, end="... ")
         stdout.flush()
