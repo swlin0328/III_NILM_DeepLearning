@@ -14,8 +14,6 @@ from scipy.signal import lombscargle
 import numpy as np
 from neuralnilm.data.loadactivations import load_nilmtk_activations
 from neuralnilm.data.syntheticaggregatesource import SyntheticAggregateSource
-#from neuralnilm.data.realaggregatesource import RealAggregateSource
-#from neuralnilm.data.stridesource import StrideSource
 from neuralnilm.data.datapipeline import DataPipeline
 from neuralnilm.data.processing import DivideBy, IndependentlyCenter
 from neuralnilm.utils import select_windows, filter_activations
