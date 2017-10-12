@@ -23,7 +23,6 @@ from neuralnilm.utils import select_windows, filter_activations
 from lib import dirs
 from dataprocess import realaggregatesource 
 from dataprocess import stridesource
-from dataprocess import timeframe
 
 import warnings
 warnings.filterwarnings('ignore', message="numpy.dtype size changed, may indicate binary incompatibility.")
