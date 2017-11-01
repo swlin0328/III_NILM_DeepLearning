@@ -1,5 +1,9 @@
 # Deep Learning in NILM in Taiwan
-Digital Transformation Institute/III is the FIRST team in Taiwan applying Deep Learning in NILM. Our goal is to help Taiwanese to save energy in a low-cost way.
+Digital Transformation Institute / III is the FIRST team in Taiwan applying Deep Learning in NILM. Our goal is to help Taiwanese to save energy in a low-cost way.
+
+https://web.iii.org.tw/About/Department.aspx?dp_sqno=15&fm_sqno=36
+
+Due to the No-Nuclear policy in Taiwan, saving energy, especially domestic energy, is urge for Taiwan.
 
 # III_PowerNILM_DeepLearning
 III_PowerNILM_DeepLearning is a module for estimating the energy consumed by individual appliances from aggregate consumption data. In this project, unlike REDD or UKDALE, the sample rate of III's power data is 60/sec or 180/sec.
