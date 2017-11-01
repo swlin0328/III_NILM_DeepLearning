@@ -14,6 +14,7 @@ In this project, we only take five appliances into consideration:
 - [ ] Washing Machine
 - [ ] TV
 - [ ] bottle warmer 
+
 Other appliances are labeled as others.
 
 # Data Management  
