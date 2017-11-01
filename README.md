@@ -8,7 +8,7 @@ We take REDD dataset as reference, which can be found in the below link:
 
 http://redd.csail.mit.edu/
 
-Then, we use Convert_TaiPower.py to convert our data to HDF formet.Here is the brief summary:
+Then, we use Convert_TaiPower.py to convert our data to HDF formet.Here is the brief summary:\n
 Raw Data ---III.py or PongHu.py---> REDD format ---Convert_TaiPower.py---> HDF format ---> NILMTK
 
 # From SQL to REDD format
