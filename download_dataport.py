@@ -12,20 +12,16 @@ import pandas as pd
 import numpy as np
 from collections import OrderedDict
 
-HOST = '140.92.60.81'
+HOST = None
 USER = 'nilm'
-PWD = '1qaz@WSX'
+PWD = None
 SAVEFILE = os.path.join('data','III')
-DBNAME = 'ddms_dev'
+DBNAME = None
 CURRENT_TIME = '2017-10-30 00:00:00'
 
 def CONNECT(host, user, pwd, dbname,savefile,port=3306):
    
     """ Download data from MySQL into dat files """
-    # host='140.92.60.84'
-    # dbname='ddms_dev'
-    # user='admin'
-    # pwd='admin'
     
     try:
         connection = pymysql.connect(host=host,
