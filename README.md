@@ -9,15 +9,15 @@ We take REDD dataset as reference, which can be found in the below link:
 http://redd.csail.mit.edu/
 
 Then, we use Convert_TaiPower.py to convert our data to HDF formet. Here is the brief summary:
--Raw Data ---III.py or PongHu.py---> REDD format ---Convert_TaiPower.py---> HDF format ---> NILMTK
+- Raw Data ---III.py or PongHu.py---> REDD format ---Convert_TaiPower.py---> HDF format ---> NILMTK
 
 # From SQL to REDD format
--./III.py :  III's domestic
--./III.py -c :  III's commerce
--./ PongHu.py : 澎湖低碳島
+- ./III.py :  III's domestic
+- ./III.py -c :  III's commerce
+- ./ PongHu.py : 澎湖低碳島
 
 # From REDD format to HDF
--./Convert_TaiPower.py
+- ./Convert_TaiPower.py
 
 # Python note
 We use pandas==0.16.2 instead of 0.19.2 . Though pandas==0.19.2 is better in resampling, neuralnilm is based on pandas==0.16.2. There is a bug when using pandas==0.19.2
