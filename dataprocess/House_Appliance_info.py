@@ -1,10 +1,4 @@
 #!/usr/bin/env python
-
-import os
-from os import listdir
-
-#!/usr/bin/env python
-
 import os
 from os import listdir
 
