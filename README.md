@@ -30,8 +30,8 @@ Then, we use Convert_TaiPower.py to convert our data to HDF formet. Here is the 
 - [ ] III.py -c :  III_Commercial
 
 # From REDD format to HDF
-- [ ] III_convert_hdf.py
-`./III.py -d [data_type]`
+- [ ] III_convert_hdf.py:
+`./III_convert_hdf.py -d [data_type]`
 where `data_type` is III, III_Commercial or HEMS_PongHu. The output will be named 'data_type_yy_mm_dd.h5' in the data folder.
 
 # Model
