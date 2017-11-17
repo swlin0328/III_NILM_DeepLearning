@@ -26,7 +26,7 @@ Then, we use Convert_TaiPower.py to convert our data to HDF formet. Here is the 
 
 |SQL|   |data/REDD.foramt|   | data/HDF.format| models and output |
 |:---:|:---:|:---:|:---:|:---:|:---:|
-| |_  | `III`| _| |`III_convert_hdf`| _| | `train`| _| |
+|   | `III`|  |`III_convert_hdf`|  | `train`|  |
 
 # From SQL to REDD format
 - [ ] III.py :  III (eight households in III)
