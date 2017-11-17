@@ -29,7 +29,7 @@ Here is the brief summary:
 |   | `III`|  |`III_convert_hdf`|  | `train`|  |
 
 The first row represents folder name except for database, and database represents the db in SQL.<br />
-The second row represents python codes which use the data from the left-above folder and produce the resulting file in the right-above folder.
+The second row represents python codes which use the data from the left-above folder and save the resulting files in the right-above folder.
 
 # From SQL to REDD format
 - [ ] III.py :  III (eight households in III)
