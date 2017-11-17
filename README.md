@@ -17,7 +17,7 @@ In this project, we only take five appliances into consideration:
 
 Other appliances are labeled as others.
 
-# Data Management  
+# training process 
 We take REDD dataset as reference, which can be found in the below link:
 
 http://redd.csail.mit.edu/
@@ -26,24 +26,34 @@ Here is the brief summary:
 
 |database|   |data/REDD.foramt|   | data/HDF.format|  | models and output |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
-|   | `III`|  |`III_convert_hdf`|  | `train`|  |
+|   | `III.py`|  |`III_convert_hdf.py`|  | `train.py`|  |
 
 The first row represents folder name except for database, and database represents the db in SQL.<br />
 The second row represents python codes which use the data from the left-above folder and save the resulting files in the right-above folder.
 
-# From SQL to REDD format
-- [ ] III.py :  III (eight households in III)
-- [ ] III.py -c :  III_Commercial
+## From database to REDD format
+- [ ] III.py 
 
-# From REDD format to HDF
+## From REDD format to HDF
 - [ ] III_convert_hdf.py:<br />
 `./III_convert_hdf.py -d data_type`<br />
 where `data_type` is III, III_Commercial or HEMS_PongHu. The output will be named 'data_type_yy_mm_dd.h5' in the data folder.
 
-# Model
+## train
+- [ ] train.py 
+
+## Model
 - [ ] dae.py 
 - [ ] LSTM*.py 
 - [ ] Washing Machine > Fridge > AC >>> TV >>> bottle warmer
+
+# Evaluate the models
+|eval/test_data|   |eval/model_name_folder| 
+|:---:|:---:|:---:|
+|   | `evaluation_model.py`|  |
+
+## evaluate
+- [ ] evaluation_model.py
 
 # Future(by the end of this year)
 Develop a hybrid DNN-HMM model to our dataset
