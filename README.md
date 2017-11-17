@@ -24,8 +24,8 @@ http://redd.csail.mit.edu/
 
 Then, we use Convert_TaiPower.py to convert our data to HDF formet. Here is the brief summary:
 
-|SQL|   |data/REDD.foramt|   | data/HDF.format| models and output |
-|:---:|:---:|:---:|:---:|:---:|:---:|
+|SQL|   |data/REDD.foramt|   | data/HDF.format|  | models and output |
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |   | `III`|  |`III_convert_hdf`|  | `train`|  |
 
 # From SQL to REDD format
