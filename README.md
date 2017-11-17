@@ -22,11 +22,14 @@ We take REDD dataset as reference, which can be found in the below link:
 
 http://redd.csail.mit.edu/
 
-Then, we use Convert_TaiPower.py to convert our data to HDF formet. Here is the brief summary:
+Here is the brief summary:
 
-|SQL|   |data/REDD.foramt|   | data/HDF.format|  | models and output |
+|database|   |data/REDD.foramt|   | data/HDF.format|  | models and output |
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|
 |   | `III`|  |`III_convert_hdf`|  | `train`|  |
+
+The first row represents folder name except for database, and database represents the db in SQL.<br />
+The second row represents python codes which use the data from the left-above folder and produce the resulting file in the right-above folder.
 
 # From SQL to REDD format
 - [ ] III.py :  III (eight households in III)
