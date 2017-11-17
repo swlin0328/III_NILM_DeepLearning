@@ -26,12 +26,13 @@ Then, we use Convert_TaiPower.py to convert our data to HDF formet. Here is the 
 - [ ] Raw Data ---III.py or PongHu.py---> REDD format ---Convert_TaiPower.py---> HDF format ---> NILMTK
 
 # From SQL to REDD format
-- [ ] III.py :  III's domestic
-- [ ] III.py -c :  III's commerce
-- [ ] PongHu.py : 澎湖低碳島
+- [ ] III.py :  III (eight households in III)
+- [ ] III.py -c :  III_Commercial
 
 # From REDD format to HDF
-- [ ] Convert_TaiPower.py
+- [ ] III_convert_hdf.py
+`./III.py -d [data_type]`
+where `data_type` is III, III_Commercial or HEMS_PongHu. The output will be named 'data_type_yy_mm_dd.h5' in the data folder.
 
 # Model
 - [ ] dae.py 
