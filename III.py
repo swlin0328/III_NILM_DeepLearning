@@ -49,10 +49,10 @@ def parse_args():
 
 def whether_commercial():
     global Groupby, HOST, USER, PWD, DBNAME, SAVEFILE, sql_query, METADATA
-    HOST = '223.27.48.230'
-    USER = 'tkfc'
-    PWD = '1qaz@WSX'
-    DBNAME = 'iii_bees_all'
+    HOST = @@@@@@
+    USER = @@@@@@@
+    PWD = @@@@@@@
+    DBNAME = @@@@@@@@
 
     if not commercial_or_not:
         print "The type of the dataset is domestic"
